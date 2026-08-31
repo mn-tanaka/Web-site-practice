@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="ひまわりの種をもったジャンガリアンハムスターのイラスト">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="#F7E7E0"/>
+  <circle cx="400" cy="290" r="236" fill="#FBF2EC"/>
+  <rect width="800" height="600" fill="url(#glow)"/>
+
+  <!-- scattered seeds -->
+  <g fill="#B08D6E" opacity="0.55">
+    <ellipse cx="132" cy="470" rx="13" ry="8" transform="rotate(-18 132 470)"/>
+    <ellipse cx="180" cy="504" rx="12" ry="7" transform="rotate(12 180 504)"/>
+    <ellipse cx="662" cy="452" rx="13" ry="8" transform="rotate(24 662 452)"/>
+    <ellipse cx="628" cy="500" rx="11" ry="7" transform="rotate(-8 628 500)"/>
+  </g>
+  <g fill="#EBC9C0" opacity="0.8">
+    <circle cx="150" cy="180" r="9"/>
+    <circle cx="196" cy="140" r="5"/>
+    <circle cx="646" cy="170" r="8"/>
+    <circle cx="606" cy="128" r="5"/>
+  </g>
+
+  <!-- ground shadow -->
+  <ellipse cx="400" cy="508" rx="176" ry="26" fill="#E7CFC6"/>
+
+  <!-- body -->
+  <ellipse cx="400" cy="360" rx="186" ry="158" fill="#D8D2CD"/>
+  <ellipse cx="400" cy="392" rx="140" ry="122" fill="#FAF6F2"/>
+
+  <!-- dorsal stripe -->
+  <path d="M400 202 q26 84 0 168 q-26 -84 0 -168 z" fill="#A9A29D"/>
+
+  <!-- ears -->
+  <g>
+    <ellipse cx="290" cy="196" rx="56" ry="54" fill="#CFC8C3"/>
+    <ellipse cx="292" cy="196" rx="32" ry="30" fill="#EFC7C4"/>
+    <ellipse cx="510" cy="196" rx="56" ry="54" fill="#CFC8C3"/>
+    <ellipse cx="508" cy="196" rx="32" ry="30" fill="#EFC7C4"/>
+  </g>
+
+  <!-- head -->
+  <ellipse cx="400" cy="308" rx="164" ry="140" fill="#DFD9D4"/>
+  <ellipse cx="400" cy="340" rx="120" ry="102" fill="#FBF8F5"/>
+
+  <!-- cheeks -->
+  <ellipse cx="306" cy="352" rx="34" ry="22" fill="#F3CFCB" opacity="0.75"/>
+  <ellipse cx="494" cy="352" rx="34" ry="22" fill="#F3CFCB" opacity="0.75"/>
+
+  <!-- eyes -->
+  <ellipse cx="336" cy="300" rx="19" ry="21" fill="#3B3230"/>
+  <circle cx="330" cy="292" r="6" fill="#FFFFFF"/>
+  <ellipse cx="464" cy="300" rx="19" ry="21" fill="#3B3230"/>
+  <circle cx="458" cy="292" r="6" fill="#FFFFFF"/>
+
+  <!-- nose + mouth -->
+  <path d="M400 336 q-14 0 -14 10 q0 10 14 16 q14 -6 14 -16 q0 -10 -14 -10 z" fill="#D98E93"/>
+  <path d="M400 362 q-16 20 -32 4" stroke="#B49A96" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M400 362 q16 20 32 4" stroke="#B49A96" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+  <!-- whiskers -->
+  <g stroke="#C9BEB9" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M292 330 L214 314"/>
+    <path d="M292 346 L212 350"/>
+    <path d="M508 330 L586 314"/>
+    <path d="M508 346 L588 350"/>
+  </g>
+
+  <!-- paws holding a seed -->
+  <ellipse cx="356" cy="452" rx="30" ry="24" fill="#F4EFEA" stroke="#E0D8D2" stroke-width="3"/>
+  <ellipse cx="444" cy="452" rx="30" ry="24" fill="#F4EFEA" stroke="#E0D8D2" stroke-width="3"/>
+  <ellipse cx="400" cy="446" rx="24" ry="16" fill="#A9805C" transform="rotate(-12 400 446)"/>
+  <path d="M382 442 q18 -6 36 6" stroke="#8A6544" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- feet -->
+  <ellipse cx="316" cy="500" rx="40" ry="22" fill="#EFE9E3"/>
+  <ellipse cx="484" cy="500" rx="40" ry="22" fill="#EFE9E3"/>
+</svg>

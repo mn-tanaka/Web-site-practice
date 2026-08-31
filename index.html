@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>田中です。｜自己紹介</title>
+<meta name="description" content="PD部・田中の自己紹介ページ。好きなものと、最近のことを少しだけ。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&family=Zen+Old+Mincho:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="logo" href="#top">
+      <span class="logo__drop" aria-hidden="true"></span>
+      <span class="logo__text">田中です。</span>
+    </a>
+    <nav class="nav" aria-label="ページ内ナビゲーション">
+      <ul class="nav__list">
+        <li><a href="#about">はじめに</a></li>
+        <li><a href="#status">ステータス</a></li>
+        <li><a href="#gallery">すきなもの</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ================= hero ================= -->
+  <section class="hero">
+    <div class="hero__inner">
+      <div class="hero__text">
+        <p class="hero__lead">はじめまして、</p>
+        <h1 class="hero__title">田中です。</h1>
+        <p class="hero__note">絵を描くこと、ハムスター、オーディション番組。<br>好きなものでできています。</p>
+      </div>
+      <div class="hero__art" aria-hidden="true">
+        <span class="drop drop--main"><span class="drop__label">田中</span></span>
+        <span class="drop drop--small"></span>
+        <span class="drop drop--tiny"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= about ================= -->
+  <section id="about" class="section section--about">
+    <div class="wrap">
+      <h2 class="heading">はじめに</h2>
+      <div class="about__body">
+        <p class="about__big">田中です。</p>
+        <p class="about__text">
+          PD部で働いています。休みの日は、机に紙を広げて絵を描いていることが多いです。
+          手を動かす時間と、生きものを眺める時間と、誰かが夢に向かう姿を見る時間。
+          そのくらいがちょうどいい、と思いながら過ごしています。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= status ================= -->
+  <section id="status" class="section section--status">
+    <div class="wrap">
+      <h2 class="heading">ステータス</h2>
+      <div class="status-card">
+        <table class="status">
+          <caption class="status__caption">田中のきほん情報</caption>
+          <tbody>
+            <tr>
+              <th scope="row">名前</th>
+              <td>田中</td>
+            </tr>
+            <tr>
+              <th scope="row">職種</th>
+              <td>PD部</td>
+            </tr>
+            <tr>
+              <th scope="row">趣味</th>
+              <td>絵を描くこと</td>
+            </tr>
+            <tr>
+              <th scope="row">好きなもの</th>
+              <td>ジャンガリアンハムスター</td>
+            </tr>
+            <tr>
+              <th scope="row">最近ハマっていること</th>
+              <td>オーディション番組を見ること</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= gallery / slider ================= -->
+  <section id="gallery" class="section section--gallery">
+    <div class="wrap">
+      <h2 class="heading">すきなもの</h2>
+      <p class="section__lead">3枚めくると、だいたい田中のことがわかります。</p>
+
+      <div class="slider">
+        <input class="slider__radio" type="radio" name="gallery" id="g1" checked>
+        <input class="slider__radio" type="radio" name="gallery" id="g2">
+        <input class="slider__radio" type="radio" name="gallery" id="g3">
+
+        <div class="slider__window">
+          <ul class="slider__track">
+            <li class="slide">
+              <figure class="slide__figure">
+                <img src="images/art.svg" alt="イーゼルに立てかけたキャンバスと、パレットや絵筆が並んだ机">
+                <figcaption class="slide__caption">
+                  <span class="slide__title">絵を描くこと</span>
+                  <span class="slide__desc">気づくと夜になっている、いちばん長い趣味。</span>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="slide">
+              <figure class="slide__figure">
+                <img src="images/hamster.svg" alt="ひまわりの種を両手で持つジャンガリアンハムスター">
+                <figcaption class="slide__caption">
+                  <span class="slide__title">ジャンガリアンハムスター</span>
+                  <span class="slide__desc">まるい背中と、種を持つ手つきがたまりません。</span>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="slide">
+              <figure class="slide__figure">
+                <img src="images/tv.svg" alt="オーディション番組が映っているリビングのテレビ">
+                <figcaption class="slide__caption">
+                  <span class="slide__title">オーディション番組</span>
+                  <span class="slide__desc">推しが決まると、リビングから動けなくなります。</span>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+
+        <label class="slider__arrow slider__arrow--prev s1" for="g3"><span class="sr-only">前の画像へ</span></label>
+        <label class="slider__arrow slider__arrow--next s1" for="g2"><span class="sr-only">次の画像へ</span></label>
+        <label class="slider__arrow slider__arrow--prev s2" for="g1"><span class="sr-only">前の画像へ</span></label>
+        <label class="slider__arrow slider__arrow--next s2" for="g3"><span class="sr-only">次の画像へ</span></label>
+        <label class="slider__arrow slider__arrow--prev s3" for="g2"><span class="sr-only">前の画像へ</span></label>
+        <label class="slider__arrow slider__arrow--next s3" for="g1"><span class="sr-only">次の画像へ</span></label>
+
+        <div class="slider__dots">
+          <label for="g1"><span class="sr-only">1枚目を見る</span></label>
+          <label for="g2"><span class="sr-only">2枚目を見る</span></label>
+          <label for="g3"><span class="sr-only">3枚目を見る</span></label>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="site-footer__mark"><span class="drop drop--footer" aria-hidden="true"></span></p>
+    <p class="site-footer__text">最後まで見てくれてありがとうございます。</p>
+    <p class="site-footer__copy">© 田中</p>
+  </div>
+</footer>
+
+</body>
+</html>
